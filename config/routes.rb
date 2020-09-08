@@ -1,4 +1,4 @@
-Risld.applicstion.routes.drow do
-  # For detail on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  root 'posts#index'
+Rails.application.routes.draw do
+  root to: 'posts#index'
+  post 'posts', to: 'posts#create'
 end
