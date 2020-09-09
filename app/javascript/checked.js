@@ -5,7 +5,7 @@ function check() {
       return null;
     }
     post.setAttribute("data-load", "true");
-    // メモをクリックした場合に実行する処理を定義している
+    // メモをクリックした場合に実行する処理を定義してい
     post.addEventListener("click", () => {
       // どのメモをクリックしたのか、カスタムデータを利用して取得している
       const postId = post.getAttribute("data-id");
